@@ -1,0 +1,34 @@
+version: '3'
+services:
+  nginx:
+    image: nginx
+    env_file:
+      - .env
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./app:/app
+      - ./nginx/certificates:/certificates
+      - ./nginx/vhost.conf:/etc/nginx/conf.d/vhost.conf
+
+  php:
+    build: php
+    volumes:
+      - ./app:/app
+
+  database:
+    image: mariadb
+    env_file:
+      - .env
+    environment:
+      MARIADB_ROOT_PASSWORD: ${ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DATABASE}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./db:/db
+      - ./datos:/var/lib/mysql
+
+volumes:
+  datos:
