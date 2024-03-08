@@ -13,30 +13,5 @@ services:
       - ./apache/${CERT_FILE}:/etc/ssl/certs/${CERT_FILE}
       - ./apache/${KEY_FILE}:/etc/ssl/private/${KEY_FILE}
 
-  # database:
-  #   image: mariadb
-  #   env_file:
-  #     - .env
-  #   environment:
-  #     MARIADB_ROOT_PASSWORD: ${ROOT_PASSWORD}
-  #     MYSQL_DATABASE: ${DATABASE}
-  #     MYSQL_USER: ${DB_USER}
-  #     MYSQL_PASSWORD: ${DB_PASSWORD}
-  #   volumes:
-  #     - ./db:/db
-  #     - ./datos:/var/lib/mysql
-
-  # phpmyadmin:
-  #   image: phpmyadmin/phpmyadmin
-  #   ports:
-  #     - 8080:80
-  #   env_file:
-  #     - .env
-  #   environment:
-  #     PMA_HOST: database
-  #     MARIADB_ROOT_PASSWORD: ${ROOT_PASSWORD}
-  #     MYSQL_DATABASE: ${DATABASE}
-  #     MYSQL_USER: ${DB_USER}
-  #     MYSQL_PASSWORD: ${DB_PASSWORD}
 volumes:
   datos:
