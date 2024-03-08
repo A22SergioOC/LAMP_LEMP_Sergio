@@ -18,18 +18,18 @@ services:
       - ./app:/app
       - ./php/www.conf:/etc/php/8.2/fpm/pool.d/www.conf
 
-  database:
-    image: mariadb
-    env_file:
-      - .env
-    environment:
-      MARIADB_ROOT_PASSWORD: ${ROOT_PASSWORD}
-      MYSQL_DATABASE: ${DATABASE}
-      MYSQL_USER: ${DB_USER}
-      MYSQL_PASSWORD: ${DB_PASSWORD}
-    volumes:
-      - ./db:/db
-      - ./datos:/var/lib/mysql
+  # database:
+  #   image: mariadb
+  #   env_file:
+  #     - .env
+  #   environment:
+  #     MARIADB_ROOT_PASSWORD: ${ROOT_PASSWORD}
+  #     MYSQL_DATABASE: ${DATABASE}
+  #     MYSQL_USER: ${DB_USER}
+  #     MYSQL_PASSWORD: ${DB_PASSWORD}
+  #   volumes:
+  #     - ./db:/db
+  #     - ./datos:/var/lib/mysql
 
 volumes:
   datos:
