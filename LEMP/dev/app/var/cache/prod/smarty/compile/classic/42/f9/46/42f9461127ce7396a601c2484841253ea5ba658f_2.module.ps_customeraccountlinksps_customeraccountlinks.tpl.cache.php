@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-08 14:29:32
+/* Smarty version 4.3.4, created on 2024-03-16 15:07:28
   from 'module:ps_customeraccountlinksps_customeraccountlinks.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65eb12bc013070_70815159',
+  'unifunc' => 'content_65f5a7a0df4355_37700065',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65eb12bc013070_70815159 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65f5a7a0df4355_37700065 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
-$_smarty_tpl->compiled->nocache_hash = '106132324965eb12bc00b5e5_63336754';
+$_smarty_tpl->compiled->nocache_hash = '140712144265f5a7a0deb429_07327971';
 ?>
 
 <div id="block_myaccount_infos" class="col-md-3 links wrapper">

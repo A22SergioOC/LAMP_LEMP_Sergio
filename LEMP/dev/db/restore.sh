@@ -1,1 +1,1 @@
-docker compose exec basedatos /bin/bash -c "mariadb -u user -puser db < /db/backup.sql"
+docker compose exec database /bin/bash -c "mariadb -u root -pabc123. db < /db/backup.sql"

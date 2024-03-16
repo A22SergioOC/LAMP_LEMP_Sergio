@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-08 14:30:43
+/* Smarty version 4.3.4, created on 2024-03-16 15:07:28
   from 'module:ps_bannerps_banner.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65eb13038841b5_02842605',
+  'unifunc' => 'content_65f5a7a0c2c858_62502596',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_65eb13038841b5_02842605 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65f5a7a0c2c858_62502596 (Smarty_Internal_Template $_smarty_tpl) {
 ?><a class="banner" href="https://a22sergiooc.giize.com/index.php" title="">
       <img src="https://a22sergiooc.giize.com/modules/ps_banner/img/sale70.png" alt="" title="" class="img-fluid" loading="lazy" width="1110" height="213">
   </a>

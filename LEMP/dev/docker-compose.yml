@@ -10,7 +10,7 @@ services:
     volumes:
       - ./app:/app
       - ./nginx/certificates:/certificates
-      - ./nginx/vhost.conf:/etc/nginx/conf.d/vhost.conf
+      - ./nginx/vhost.conf:/etc/nginx/templates/vhost.conf.template
 
   php:
     build: php

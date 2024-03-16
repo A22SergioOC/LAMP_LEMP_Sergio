@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-08 14:30:43
+/* Smarty version 4.3.4, created on 2024-03-16 15:07:28
   from 'module:ps_featuredproductsviewstemplateshookps_featuredproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65eb130387d731_86456282',
+  'unifunc' => 'content_65f5a7a0c24ed2_18635216',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -42,7 +42,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_65eb130387d731_86456282 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65f5a7a0c24ed2_18635216 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="featured-products clearfix">
   <h2 class="h2 products-section-title text-uppercase">
     Productos Destacados
@@ -79,7 +79,7 @@ function content_65eb130387d731_86456282 (Smarty_Internal_Template $_smarty_tpl)
 
           
                           <div class="variant-links">
-      <a href="https://a22sergiooc.giize.com/index.php?id_product=1&amp;id_product_attribute=3&amp;rewrite=hummingbird-printed-t-shirt&amp;controller=product#/2-tamano-m/8-color-blanco"
+      <a href="https://a22sergiooc.giize.com/index.php?id_product=1&amp;id_product_attribute=1&amp;rewrite=hummingbird-printed-t-shirt&amp;controller=product#/1-tamano-s/8-color-blanco"
        class="color"
        title="Blanco"
        aria-label="Blanco"
