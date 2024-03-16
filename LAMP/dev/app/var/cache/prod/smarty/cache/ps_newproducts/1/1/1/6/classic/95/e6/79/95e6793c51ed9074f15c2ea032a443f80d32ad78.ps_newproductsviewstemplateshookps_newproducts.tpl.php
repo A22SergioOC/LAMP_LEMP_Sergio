@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-08 14:20:37
+/* Smarty version 4.3.4, created on 2024-03-16 14:41:50
   from 'module:ps_newproductsviewstemplateshookps_newproducts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65eb10a54e1c73_58987439',
+  'unifunc' => 'content_65f5a19edd6408_80355375',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -42,7 +42,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_65eb10a54e1c73_58987439 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65f5a19edd6408_80355375 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section class="featured-products clearfix mt-3">
   <h2 class="h2 products-section-title text-uppercase">
@@ -80,7 +80,7 @@ function content_65eb10a54e1c73_58987439 (Smarty_Internal_Template $_smarty_tpl)
 
           
                           <div class="variant-links">
-      <a href="https://a22sergiooc.giize.com/men/1-3-hummingbird-printed-t-shirt.html#/2-tamano-m/8-color-blanco"
+      <a href="https://a22sergiooc.giize.com/men/1-1-hummingbird-printed-t-shirt.html#/1-tamano-s/8-color-blanco"
        class="color"
        title="Blanco"
        aria-label="Blanco"

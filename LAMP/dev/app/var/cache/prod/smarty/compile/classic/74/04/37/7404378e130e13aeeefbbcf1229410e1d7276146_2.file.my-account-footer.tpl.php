@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-03-08 14:20:08
+/* Smarty version 4.3.4, created on 2024-03-16 14:41:50
   from '/app/themes/classic/modules/ps_emailalerts/views/templates/hook/my-account-footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_65eb10888cd1e2_46032516',
+  'unifunc' => 'content_65f5a19eebe0d9_31947393',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65eb10888cd1e2_46032516 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65f5a19eebe0d9_31947393 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <li>
   <a href="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0], array( array('entity'=>'module','name'=>'ps_emailalerts','controller'=>'account'),$_smarty_tpl ) );?>

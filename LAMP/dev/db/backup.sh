@@ -1,1 +1,1 @@
-docker compose exec database /bin/bash -c "mariadb-dump -u user -puser db" > ./db/backup.sql
+docker compose exec database /bin/bash -c "mariadb-dump -u root -pabc123. db" > ./db/backup.sql

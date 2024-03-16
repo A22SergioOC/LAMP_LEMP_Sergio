@@ -25,6 +25,7 @@ services:
     volumes:
       - ./db:/db
       - datos:/var/lib/mysql
+      - ./bd/backup.sql:/docker-entrypoint-initdb.d/backup.sql
 
   # phpmyadmin:
   #   image: phpmyadmin/phpmyadmin
